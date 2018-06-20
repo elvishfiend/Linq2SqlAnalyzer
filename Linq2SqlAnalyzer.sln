@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer", "Linq2SqlAnalyzer\Linq2SqlAnalyzer\Linq2SqlAnalyzer.csproj", "{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer.Test", "Linq2SqlAnalyzer\Linq2SqlAnalyzer.Test\Linq2SqlAnalyzer.Test.csproj", "{3785D881-F2B2-4FDE-A027-46CC8D067936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer.Vsix", "Linq2SqlAnalyzer\Linq2SqlAnalyzer.Vsix\Linq2SqlAnalyzer.Vsix.csproj", "{453B60FE-73D0-40A9-A780-9625915E7AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3785D881-F2B2-4FDE-A027-46CC8D067936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3785D881-F2B2-4FDE-A027-46CC8D067936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3785D881-F2B2-4FDE-A027-46CC8D067936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3785D881-F2B2-4FDE-A027-46CC8D067936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453B60FE-73D0-40A9-A780-9625915E7AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453B60FE-73D0-40A9-A780-9625915E7AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453B60FE-73D0-40A9-A780-9625915E7AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453B60FE-73D0-40A9-A780-9625915E7AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
