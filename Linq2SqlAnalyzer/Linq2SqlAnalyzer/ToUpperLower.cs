@@ -24,7 +24,8 @@ namespace Linq2SqlAnalyzer
 
         public override void Initialize(AnalysisContext context)
         {
-            context.RegisterSyntaxNodeAction(AnalyzeSymbol, SyntaxKind.InvocationExpression);
+            // todo: not complete yet.
+            //context.RegisterSyntaxNodeAction(AnalyzeSymbol, SyntaxKind.InvocationExpression);
         }
 
         private void AnalyzeSymbol(SyntaxNodeAnalysisContext context)

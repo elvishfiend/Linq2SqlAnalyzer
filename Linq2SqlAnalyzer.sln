@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer", "Linq2SqlAnalyzer\Linq2SqlAnalyzer\Linq2SqlAnalyzer.csproj", "{C1949F2D-09E9-450E-97E2-F0ED3C9009E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer.Test", "Linq2SqlAnalyzer\Linq2SqlAnalyzer.Test\Linq2SqlAnalyzer.Test.csproj", "{3785D881-F2B2-4FDE-A027-46CC8D067936}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq2SqlAnalyzer.Vsix", "Linq2SqlAnalyzer\Linq2SqlAnalyzer.Vsix\Linq2SqlAnalyzer.Vsix.csproj", "{453B60FE-73D0-40A9-A780-9625915E7AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FF9A6794-52A1-429A-9166-3A21427DEBF8}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB1E9F9C-4C3A-4DB2-9A37-F11CA8D24DDB}
 	EndGlobalSection
 EndGlobal
